@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:10px;
+    height:0px;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    background-color:rgb(200, 200, 200);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(224, 224, 224);
+}
+::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:10px;
+    height:0px
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+html{
+    background-color: #000;
+}
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+header{
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.header{
+    background-color: #fff;
+    max-width: 1900px;
+    user-select: none;
+}
+body {
+    background-color: #fff;
+}
+.nav{
+    width: 90%;
+    height: 85px;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1000;
+}
+.navbar-top{
+    max-width: 1900px;
+    padding-top: 25px;
+}
+.in_menu{
+    width: 90%;
+}
+.logotext{
+    font-family: 'Miss Fajardose', cursive;
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    color: rgb(126, 126, 126);
+}
+.logo{
+    color: #fff;
+    text-shadow: 0px 0px 5px white;
+    text-align: center;
+    float: left;
+}
+.logo_txt{
+    font-size: 30px !important;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 0px 0px 5px white;
+}
+.logo_txt:hover{
+    text-decoration: none;
+}
+.navigation{
+    justify-content: center;
+    padding-top: 8px;
+}
+.box{
+    float: right;
+    text-align: right;
+}
+.kachestvo{
+    float: right;
+    text-align: right;
+}
+.collection{
+    float: right;
+    text-align: right;
+}
+.delivery{
+    float: right;
+    text-align: right;
+}
+.me{
+    float: right;
+    text-align: right;
+}
+.txt{
+    font-size: 17px !important;
+    letter-spacing: 0px;
+    color: rgb(126, 126, 126);
+    text-shadow: 0px 0px 2px white;
+    transition: 0.2s;
+    font-weight: 600;
+    padding: 5px 25px;
+    font-family: 'Alumni Sans', sans-serif;
+    user-select: text;
+}
+.txt:hover{
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+}
+.txt:active{
+    color: #fff;
+}
+.signboard{
+    position: relative;
+    padding-top: 100px;
+    user-select: none;
+}
+.blockmid{
+    width: 29%;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0px 0.5%;
+}
+.threeblock{
+    margin-top: 15px;
+}
+.aboutme{
+    max-width: 1800px;
+    padding-top: 140px;
+    user-select: none;
+}
+.biography{
+    display: inline-block;
+    width: 35%;
+    background-color: #fff;
+}
+.textbio{
+    margin: 5% 5%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(47, 47, 47);
+    text-align: left;  
+}
+.pp{
+    color: rgb(95, 95, 95) !important;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-indent: 20px; 
+    user-select: text;
+}
+.portret{
+    display: inline-block;
+    width: 40%;
+    transform: rotate(5deg);
+}
+.myphoto{
+    width: 80%;
+    margin-top: -350px;
+    border: #fff solid 30px;
+}
+.inaboutme{
+    background-color: rgb(224, 224, 224);
+    width: 60%;
+}
+.gallery{
+    max-width: 1800px;
+    padding-top: 280px;
+    user-select: none;
+    padding-bottom: 140px;
+}
+.gallery_blocks{
+    margin-top: 1px;
+}
+.gallery_block_mid{
+    width: 21%;
+    margin: 3px 0.1%;
+    display: inline-block;
+    background-color: rgb(224, 224, 224);
+    transition: all 0.2s;
+}
+.gallery_block_mid:hover{
+    cursor: pointer;
+}
+.img_port{
+    width: 100%;
+}
+.clicate{
+    cursor: pointer;
+    background-color: rgb(71, 71, 71);
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    transition: all 0.4s;
+}
+.clicate:hover{
+    opacity: 70%;
+}
+.txt_good{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+    font-weight: 800;
+    letter-spacing: 8px;
+}
+.txt_goode{
+    font-family: 'Miss Fajardose', cursive;
+    font-size: 35px;
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.good_words{
+    padding-top: 100px;
+    max-width: 1800px;
+    padding-bottom: 200px;
+}
+.phone1{
+    width: 16.5%;
+    transform: rotate(-15deg);
+    float: left;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.phone2{
+    width: 17.5%;
+    transform: rotate(0deg);
+    float: left;
+    margin-top: 0px;
+    margin-left: -20px;
+}
+.comment{
+    width: 30%;
+    height: 160px;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-left: 55%;
+    box-shadow: 0px 10px 30px rgb(151, 151, 151);
+}
+#th{
+    margin-right: 160px;
+}
+#tb{
+    margin-right: 20px;
+}
+.price{
+    max-width: 1800px;
+    padding-top: 50px;
+    user-select: none;
+}
+.price_block{
+    padding-top: 20px !important;
+}
+.price_block_on{
+    height: 550px;
+}
+.price_text{
+    margin-left: 2%;
+    height: 550px;
+}
+.hr{
+    width: 85%;
+}
+.hraa{
+    width: 85%;
+}
+.price_img{
+    height: 100%;
+}
+.ppo{
+    color: rgb(95, 95, 95) !important;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    user-select: text;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.ppor{
+    color: rgb(95, 95, 95) !important;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    user-select: text;
+    padding-top: 113px;
+    text-align: left;
+}
+.ppou{
+    color: rgb(144, 144, 144) !important;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    user-select: text;
+    margin-top: -20px;
+    text-align: left;
+}
+.price_block_on_b{
+    height: 550px;
+}
+.price_block_on_b_hide{
+    height: 550px;
+    display: none;
+}
+.price_text_b{
+    margin-right: 2%;
+    height: 550px;
+}
+.ppo_b{
+    color: rgb(95, 95, 95) !important;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    user-select: text;
+    text-align: left;
+}
+.ppor_b{
+    color: rgb(95, 95, 95) !important;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    user-select: text;
+    padding-top: 113px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.ppou_b{
+    color: rgb(144, 144, 144) !important;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    user-select: text;
+    margin-top: -20px;
+    text-align: left;
+}
+.text_good_b{
+    padding-top: 100px;
+}
+.indi_txt{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 900;
+    color: rgb(95, 95, 95);
+    letter-spacing: 5px;
+}
+.contacts{
+    padding-top: 160px;
+    max-width: 1800px;
+    padding-bottom: 70px;
+}
+.icon_wats{
+    padding: 20px;
+    display: inline-block;
+}
+.numb{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+    letter-spacing: 2px;
+}
+.numba{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(124, 124, 124);
+    letter-spacing: 4px;
+}
+.my_phone{
+    padding-top: 70px;
+}
+.hra{
+    width: 85%;
+}
+.da{
+    margin:40px 20px;
+    border-radius: 100%;
+}
+.ing{
+    margin:10px;
+    opacity: 70%;
+}
+.iconnn{
+    font-weight: 100;
+    color: rgb(158, 158, 158);
+    font-size: 30px;
+    transition: all 0.1s;
+}
+.iconnn:hover{
+    color: rgb(126, 126, 126);
+}
+@media(max-width:1601px){
+    .myphoto{
+        margin-top: -390px;
+    }
+}
+@media(max-width:1441px){
+    .myphoto{
+        margin-top: -240px;
+    }
+    .inaboutme{
+        width: 80%;
+    }
+    .biography{
+        margin-top: -5px;
+    }
+}
+@media(max-width:1367px){
+    .portret{
+        width: 30%;
+    }
+    .myphoto{
+        margin-top: -300px;
+    }
+    .biography{
+        margin-top: 0px;
+    }
+}
+@media(max-width:1025px){
+    .portret{
+        width: 35%;
+    }
+    .myphoto{
+        margin-top: -330px;
+    }
+    .blockmid{
+        width: 32%;
+        margin: 0px 0.3%;
+        margin-top: 13px;
+    }
+    .threeblock{
+        margin-top: 0px;
+    }
+    .gallery_block_mid{
+        width: 24%;
+    }
+    .aboutme{
+        padding-top: 100px;
+    }
+    .inaboutme{
+        width: 98%;
+    }
+    .hra{
+        width: 98%;
+    }
+    .hraa{
+        width: 90%;
+    }
+    .hr{
+        width: 90%;
+    }
+}
+@media(max-width:921px){
+    .portret{
+        width: 40%;
+    }
+    .myphoto{
+        margin-top: -350px;
+    }
+    .gallery{
+        padding-top: 180px;
+    }
+}
+@media(max-width:769px){
+    .portret{
+        width: 50%;
+    }
+    .myphoto{
+        margin-top: -410px;
+    }
+    .inaboutme{
+        background-color: #fff;
+        margin-top: 70px;
+    }
+}
+@media(max-width:701px){
+    .gallery_block_mid{
+        width: 42%;
+        margin: 10px 0.5%;
+    }
+    .blockmid{
+        width: 80%;
+    }
+    .aboutme{
+        padding-top: 50px;
+    }
+    .inaboutme{
+        margin-top: 50px;
+    }
+    .biography{
+        width: 60%;
+    }
+    .myphoto{
+        margin-top: 30px;
+    }
+    .portret{
+        width: 70%;
+    }
+    .txt{
+        padding: 5px 15px;
+    }
+}
+@media(max-width:611px){
+    .gallery_block_mid{
+        width: 45%;
+        margin: 6px 0.5%;
+    }
+    .blockmid{
+        width: 85%;
+    }
+    .biography{
+        width: 90%;
+    }
+    .portret{
+        width: 90%;
+    }
+    .pp{
+        font-size: 19px;
+        text-indent: 0px;
+    }
+    .gallery{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .inaboutme{
+        margin-top: 30px;
+    }
+    .price_block_on{
+        width: 80%;
+        height: 100%;
+    }
+    .price_img{
+        height: none;
+        width: 100%;
+    }
+    .price_block_on_b{
+        width: 80%;
+        height: 100%;
+        display: none;
+    }
+    .price_block_on_b_hide{
+        width: 80%;
+        height: 100%;
+        display: block;
+    }
+    .price_text{
+        margin-left: 2%;
+        height: 100%;
+        width: 80%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .price_text_b{
+        margin-left: 2%;
+        height: 100%;
+        width: 80%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .ppo{
+        color: rgb(95, 95, 95) !important;
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        user-select: text;
+        text-align:left;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .ppor{
+        color: rgb(95, 95, 95) !important;
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        user-select: text;
+        padding-top: 60px;
+        text-align: right;
+    }
+    .ppou{
+        color: rgb(144, 144, 144) !important;
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        user-select: text;
+        margin-top: -20px;
+        text-align: right;
+    }
+    .ppo_b{
+        color: rgb(95, 95, 95) !important;
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        user-select: text;
+        text-align: left;
+        line-height: 20px;
+    }
+    .ppor_b{
+        color: rgb(95, 95, 95) !important;
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        user-select: text;
+        padding-top: 60px;
+        text-align: right;
+        letter-spacing: 1px;
+    }
+    .ppou_b{
+        color: rgb(144, 144, 144) !important;
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        user-select: text;
+        margin-top: -20px;
+        text-align: right;
+    }
+    .text_good_b{
+        padding-top: 20px;
+    }
+    .contacts{
+        padding-top: 40px;
+    }
+}
+@media(max-width:521px){
+    .txt{
+        padding: 5px 10px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .in_menu{
+        width: 100%;
+    }
+    .portret{
+        width: 100%;
+    }
+}
+@media(max-width:430px){
+    .logotext{
+        font-size: 30px;
+    }
+    .txt_good{
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+    .gallery_block_mid{
+        width: 45%;
+        margin: 4px 0.5%;
+    }
+    .blockmid{
+        width: 90%;
+        margin-top: 9px;
+    }
+    .pp{
+        font-size: 14px;
+    }
+    .txt{
+        font-size: 16px !important;
+    }
+    .ppo{
+        font-size: 15px;
+    }
+    .ppo_b{
+        font-size: 15px;
+    }
+}
+@media(max-width:400px){
+    .gallery_block_mid{
+        width: 46%;
+        margin: 4px 0.5%;
+    }
+    .blockmid{
+        width: 95%;
+        margin-top: 9px;
+    }
+}
+@media(max-width:361px){
+    .txt{
+        font-size: 14px !important;
+    }
+}
